@@ -247,3 +247,18 @@
 .content > p:hover {
     text-decoration: underline;
 }
+
+/** footer logo **/
+
+.footer-logo {
+    height: 60px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo > img {
+    height: 50px;
+    width: 100px;
+}
