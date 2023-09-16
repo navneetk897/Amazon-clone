@@ -156,4 +156,26 @@
 
 .panel > * {
     padding: 8px;
+    cursor: pointer;
+}
+
+/** hero-area **/
+
+.hero-background {
+    height: 500px;
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-content {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+
 }
