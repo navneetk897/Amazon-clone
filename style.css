@@ -209,9 +209,56 @@
 .back-to-top {
     color: white;
     height: 50px;
-    background-color: #222f3d;
+    background-color: #37475a;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+
+/** footer **/
+
+
+.footer {
+    color: white;
+    background-color: #222f3d;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.content > h1 {
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.content > * {
+    margin: 10px;
+}
+
+.content > p {
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.content > p:hover {
+    text-decoration: underline;
+}
+
+/** footer logo **/
+
+.footer-logo {
+    height: 60px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo > img {
+    height: 50px;
+    width: 100px;
 }
