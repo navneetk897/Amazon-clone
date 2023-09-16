@@ -141,3 +141,19 @@
 }
 
 /** panel **/
+
+.panel {
+    color: white;
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+}
+
+.panel-all {
+    display: flex;
+    margin-left: 10px;
+}
+
+.panel > * {
+    padding: 8px;
+}
