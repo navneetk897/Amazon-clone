@@ -179,3 +179,26 @@
     flex-basis: 100%;
 
 }
+
+/** prodcut section **/
+
+.product-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+.box {
+    height: 350px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.box > img {
+    flex-basis: 100%;
+}
